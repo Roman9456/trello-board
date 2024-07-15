@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .board {
+    width: 375px; 
+    height: 667px; 
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow-y: auto;
+    padding: 10px;
+  }
+  
+  .column {
+    background-color: #e2e4e6;
+    border-radius: 3px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .column-title {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .card-list {
+    margin-bottom: 10px;
+  }
+  
+  .card {
+    background-color: white;
+    border-radius: 3px;
+    box-shadow: 0 1px 0 rgba(9, 30, 66, 0.25);
+    margin-bottom: 8px;
+    padding: 6px 8px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .delete-button {
+    background: none;
+    border: none;
+    color: #888;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .add-card-button {
+    background-color: #5aac44;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    cursor: pointer;
+    padding: 6px 12px;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .add-card-button:hover {
+    background-color: #519839;
+  }
+  
